@@ -1,7 +1,13 @@
+html{font-family: 'Open Sans', helvetica, arial, sans-serif;}
+
 body {
-  margin: 0;
-  font-family: Helvetica, sans-serif;
+/*  margin: 0;
+  font-family: Helvetica, sans-serif;*/
   background-color: #f4f4f4;
+  width: 1120px;
+   margin: 0 auto;
+   color: #222;
+
 }
 
 
@@ -11,18 +17,44 @@ img {
   height: auto;
 }
 
-.logo{
-	padding-left: 2em;
+header{
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+.logo{display: block;}
+
+nav{display: block;}
+
+nav a{
+  margin-left: 40px;
+  padding: 4px 20px;
+  font-weight: bold;
+  transition: all linear .3s;
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover{
+  color: gray;
+  transform: scale(1.2);
 }
 
 .navbarContainer{
-	display: flex;
+/*	display: flex;
 	top: 1em;
 	left: 1em;
 	right: 1em;
 	z-index: 2;
 	background-color:white;
-	width: 100%;
+	width: 100%;*/
 
 
 
@@ -31,57 +63,11 @@ img {
    4px 4px 5px 0px rgba(0,0,0,.1);
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
 
-li {
-  display: block;
-  padding: 15px;
-  /*float: right;*/
-}
-
-nav ul{
-	padding-top: 3em;
-	list-style-type: none;
-	display: flex;
-	position: relative;
-/*	left: 80%;
-	right: 10%;
-	float: right;*/
-}
-
-.logo{
+/*.logo{
 	float: left;
 }
-
-.topmenu{
-	float: right;
-	margin-right: 0;
-}
-
-.navbar{
-/*	display: contents;*/
-/*	padding-right: 2em;*/
-	float: right;
-/*margin-right: 0; */
-}
-
-.navListItem{
-	color: black;
-	text-decoration: none;
-	margin-right: 0; 
-}
-
-
-
-.navListItem:hover{
-	color: gray;
-	text-decoration: underline;
-}
+*/
 
 /*menu*/
 .grid-container {
@@ -129,4 +115,27 @@ nav ul{
    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
    7px 7px 20px 0px rgba(0,0,0,.1),
    4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+
+footer{
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 1px gray;
+}
+
+footer ul a{
+  background: white;
+  margin-right: 20px;
+  font-size: 24px;
+  display: inline-block;
+  transition: all linear .2s;
+}
+
+footer ul a:hover{
+  color: #7275C1;
+  transform: scale(1.5);
 }
