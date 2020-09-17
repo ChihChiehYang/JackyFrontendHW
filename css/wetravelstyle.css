@@ -97,6 +97,16 @@ h2{
      padding:10px;  
 }
 
+.content2{
+  text-align:center;
+}
+
+.backgtound .content2{
+     display:table-cell;  
+     width:80%;  
+     padding:10px;  
+}
+
 
 /**/
 footer{
