@@ -4,7 +4,7 @@ body {
 /*  margin: 0;
   font-family: Helvetica, sans-serif;*/
   background-color: #f4f4f4;
-  width: 1120px;
+ /* width: 1120px;*/
    margin: 0 auto;
    color: #222;
 
@@ -140,6 +140,34 @@ footer ul a:hover{
   transform: scale(1.5);
 }
 
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100000;
+  background-color: white;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.preloader img {
+  animation: spin 3s ease;
+  transition: all;
+  width: 150px;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
 /*mobal*/
 
 

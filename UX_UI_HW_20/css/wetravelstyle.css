@@ -1,0 +1,177 @@
+html{font-family: 'Open Sans', helvetica, arial, sans-serif;}
+
+body {
+/*  margin: 0;
+  font-family: Helvetica, sans-serif;*/
+  background-color: #f4f4f4;
+  width: 1120px;
+   margin: 0 auto;
+   color: #222;
+
+}
+
+
+/* navbarContainer */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header{
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+.logo{display: block;}
+
+nav{display: block;}
+
+nav a{
+  margin-left: 40px;
+  padding: 4px 20px;
+  font-weight: bold;
+  transition: all linear .3s;
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover{
+  color: gray;
+  transform: scale(1.2);
+}
+
+h2{
+  color:#8E98A4;
+}
+
+/*menu*/
+
+.container{  
+   display:table;  
+}   
+
+.box-cell {   
+   text-align:justify  
+}  
+.container .box-cell {  
+  display:table-cell;  
+  width:48%;  
+  padding:10px; 
+} 
+
+
+/*.container{  
+   display:table;  
+}   
+.container .box1{  
+  text-align:justify;  
+}  
+.container .box2 {   
+   text-align:justify  
+}  
+.container .box-cell {  
+  display:table-cell;  
+  width:50%;  
+  padding:10px; 
+} */
+
+
+.backgtound {
+  display:table; 
+}
+
+.content1{
+  text-align:justify;
+}
+
+.backgtound .content1{
+     display:table-cell;  
+     width:80%;  
+     padding:10px;  
+}
+
+.content2{
+  text-align:center;
+}
+
+.backgtound1 .content2{
+     display:table-cell;  
+     width:80%;  
+     padding:10px;  
+}
+
+.backgtound1 {
+  display:table; 
+}
+
+.content1{
+  text-align:justify;
+}
+
+.backgtound1 .content1{
+     display:table-cell;  
+     width:80%;  
+     padding:10px;  
+}
+
+.content2{
+  text-align:center;
+}
+
+.backgtound1 .content2{
+     display:table-cell;  
+     width:80%;  
+     padding:10px;  
+}
+
+.grid-container {
+  align-content: center;
+  display: grid;
+  grid-column-gap: 30px;
+  grid-template-columns: 500px 500px;
+  grid-row-gap: 50px;
+  padding: 50px;
+  margin-top: 0;
+  display:absolute;
+}
+
+.project{
+  text-align: center;
+  border-top: none;
+  font-size: 12px;
+  font-family: 'Montserrat';
+  margin:0;
+  margin-bottom:10px;
+  margin-top:30px;
+}
+
+
+/**/
+footer{
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 1px gray;
+}
+
+footer ul a{
+  background: white;
+  margin-right: 20px;
+  font-size: 24px;
+  display: inline-block;
+  transition: all linear .2s;
+}
+
+footer ul a:hover{
+  color: #7275C1;
+  transform: scale(1.5);
+}
